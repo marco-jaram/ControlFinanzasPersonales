@@ -1,0 +1,45 @@
+### Maven ###
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IDE ###
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+bin/
+build/
+
+### Base de datos ###
+basedatos/*.mv.db
+basedatos/*.trace.db
+basedatos/*.lock.db
+
+### Instalador y builds ###
+instalador/app/control-gastos.jar
+instalador/app/*.jar
+*.zip
+*.tar
+*.gz
+
+### Logs y temporales ###
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+~*
+
+### Sistema ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Archivos grandes ###
+*.jar
+*.war
+*.ear
